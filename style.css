@@ -1,19 +1,27 @@
 body {
-    font-family: 'Ubantu', sans-serif;
+  font-family: 'Ubantu', sans-serif;
+  min-height: 100vh;
+  margin: 0; padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 * {
     box-sizing: border-box;
   }
-  body {
-    min-height: 100vh;
-    margin: 0; padding: 0;
-    display: flex;
-    flex-direction: column;
-  }
-  header {
-    border: 1px solid rgb(0, 255, 149);
+header {
+    border: 2px solid #32CD32;
     background-color:#c3eea7e5;
   }
+
+footer {
+    height: 60px;
+    border: 2px solid #32CD32;
+    background-color:#c3eea7e5;
+    align-items: center;
+    padding: 10px 30px;
+  } 
+  
   h1 {
     font-variant: small-caps;
   }
@@ -27,15 +35,12 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    list-style: none;
   }
   html {
     scroll-behavior: smooth; 
   }
-  .nav-list {
-    list-style: none;
-   
-  }
-  .nav-link {
+    .nav-link {
     padding: 0 20px;
     line-height: 50px;
     font-weight: 800;
@@ -65,32 +70,22 @@ body {
   
   .section {
     width: 50%;
-      }
-  .section-profile {
-  width: 40%;
-  background-color: greenyellow;
-  color:blue
-  }
-  .main-section {
-    width: 30%;
+    padding: 10px;
     background-color: rgb(253, 255, 186);
     color:blue;
-    line-height: 1.5;
-    }
+    line-height: 1.5; 
+    border: 2px solid #32CD32;  
+    } 
+  .section-profile {
+  width: 30%;
+  padding: 10px;
+  background-color: greenyellow;
+  color:blue;
+  border: 2px solid #32CD32;
+  }
   
-
-
-
   @media (max-width: 768px) {
     .section {
       width: 100%;
-    }
-  
-  
-
-
-
-
-    
-
+   }
 
