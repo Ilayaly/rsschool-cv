@@ -1,1 +1,1 @@
-# rsschool-cv
+https://ilayaly.github.io/rsschool-cv/cv
