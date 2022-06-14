@@ -15,9 +15,7 @@ body {
     border: 1px solid rgb(0, 255, 149);
     background-color:#c3eea7e5;
       }
-  main {
-    border: 1px solid red;
-  }
+ 
   footer {
     border: 1px solid red;
   }
@@ -50,4 +48,9 @@ body {
   .section-item a:hover {
     color: #4d2323;
   }
-  .section 
+
+
+    
+
+
+  
